@@ -1,0 +1,24 @@
+project:
+  name: SAAA
+  full_name: Sapiens Augmented Adaptive Agent
+  mode: research_prototype
+
+safety:
+  medical_claims_allowed: false
+  active_neurostimulation_enabled: false
+  require_user_override: true
+  max_session_minutes: 45
+
+learning:
+  default_session_minutes: 25
+  break_minutes: 5
+  recall_intervals_hours: [1, 8, 24, 72, 168]
+  fatigue_threshold: 0.72
+  attention_low_threshold: 0.38
+
+feedback:
+  audio_enabled: true
+  bone_conduction_enabled: false
+  haptic_enabled: false
+  light_cues_enabled: false
+  breathing_guidance_enabled: true
