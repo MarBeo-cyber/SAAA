@@ -1,72 +1,83 @@
-# SAAA — Development Roadmap
+# Philosophy of SAAA
 
-## v0.1 — Study Session Tracker (current)
+## The Name
 
-- manual session start/stop
-- topic logging
-- recall quiz (manual)
-- self-reported fatigue rating
-- basic spaced repetition (fixed intervals)
-- local storage
+*Sapiens* and *Sapientia* point not only to intelligence, but to practical wisdom: knowing how to organise knowledge, how to recall it when needed, how to apply it in context, and how to integrate it into a life. Information is not wisdom. Wisdom is information that has been metabolised — tested, connected, retrieved, and revised through experience.
 
-## v0.2 — FSRS Recall Scheduler
+SAAA therefore focuses on operational wisdom:
 
-- FSRS algorithm integration (py-fsrs)
-- per-item forgetting curve initialisation
-- automated review scheduling
-- recall quality scoring
-- retention tracking dashboard
+```
+not more information,
+but better integration.
+```
 
-## v0.3 — Adaptive Learning State
+---
 
-- LearningStateEngine: attention, fatigue, encoding probability
-- adaptive session length (state-aware break recommendation)
-- time-of-day effectiveness tracking
-- multimodal feedback MVP (audio cues, breathing guidance)
+## Learning as Embodied, Temporal Process
 
-## v0.4 — Personal Learning Topology
+SAAA is based on the recognition that human learning is not a purely informational process. Learning is:
 
-- best time-of-day detection (rolling analysis)
-- modality effectiveness profiling
-- fatigue-retention mapping
-- individual FSRS parameter calibration
-- knowledge graph (NetworkX embedded)
+- **embodied** — the body's state (fatigue, stress, recovery) determines what can be encoded
+- **temporal** — consolidation happens over hours, days, and sleep cycles, not during the session
+- **attentional** — what is not attended to is not encoded, regardless of exposure time
+- **emotional** — arousal and motivation modulate memory consolidation at the neurobiological level
+- **autobiographical** — the most durable memories connect to personal meaning and prior experience
 
-## v0.5 — Local AI Assistant
+A system that ignores these dimensions is optimising the wrong variable.
 
-- LLaMA local integration for recall prompt generation
-- document summarisation for study material
-- flashcard auto-generation
-- Socratic metacognitive journaling (basic)
+---
 
-## v1.0 — SAAA Prototype
+## Autopoietic Learning
 
-- full local dashboard with longitudinal visualisation
-- complete Personal Learning Biography
-- Sapient Synthesis (Layer 6): transfer bridge, topology visualisation
-- Safety Governor v1.0
-- privacy-first encrypted storage
-- exportable learning reports (PDF)
-- PAAA integration (neurofunctional profile import)
+The autopoietic dimension of SAAA is not biological self-production. It is **functional continuity of the learning process**:
 
-## v1.5 — Advanced Synthesis
+- the system monitors the conditions under which learning is happening
+- detects when those conditions are degraded (fatigue, overload, distraction)
+- adapts the rhythm and modality to preserve encoding quality
+- stores the autobiography of the learning process, not just its content
+- updates the personal learning model with each cycle
 
-- transfer learning detection across domains
-- knowledge gap analysis
-- advanced metacognitive journaling
-- MAAA integration (procedural knowledge export)
-- API for tutor/mentor access
+The system does not learn *what* the user learns. It learns *how* this user learns.
 
-## v2.0 — Validated Prototype
+---
 
-- clinical efficacy studies
-- university and corporate partnerships
-- enterprise features (team learning analytics, anonymised benchmarking)
-- CE marking assessment pathway
+## From WAAA to SAAA: A Developmental Arc
 
-## Research Track (v2.0+)
+Each system in the family asks a more complex question than the previous:
 
-- eye-tracking integration (fixation patterns, attention mapping)
-- validated audio neurostimulation (bone conduction protocols)
-- brain-computer interface exploration
-- peer-reviewed publications
+```
+WAAA:  "Can I still perceive reliably?"
+MAAA:  "Can human and agent still act together in this emergency?"
+PAAA:  "Is neurofunctional continuity stable over time?"
+SAAA:  "Are the conditions for meaningful learning still present?
+        And is what was learned becoming wisdom?"
+```
+
+This progression constitutes an **artificial ontogenesis** — development by stages structurally analogous to biological cognitive maturation:
+
+| Stage | Biological analogy |
+|---|---|
+| WAAA | Sensory reflex calibration |
+| MAAA | Acute stress response and stabilisation |
+| PAAA | Homeostasis and immune surveillance |
+| SAAA | Myelination and synaptic consolidation |
+
+---
+
+## Sapientia and the Knowledge Graph
+
+The knowledge graph that SAAA builds is not an encyclopaedia. It is a map of how *this specific user* has organised their understanding of the world. Two users who study the same material will develop different knowledge graphs, reflecting their different cognitive structures and associative preferences.
+
+This is the mark of genuine learning: not that the user can reproduce information, but that they have woven it into an existing structure of meaning — that it is connected, retrievable in context, and capable of generating new understanding through combination.
+
+The Sapient Synthesis layer (L6) exists to support precisely this: the moment when information becomes integrated, when connections emerge between domains, when the user begins to see structure where before they saw only content.
+
+---
+
+## The Moral Dimension
+
+There is a deeper question beneath the technical one: what happens to the capacity to form genuine understanding when the conditions for struggle, error, and recovery are removed?
+
+SAAA is designed to support the process of learning, not to replace it. The Socratic dialogue of the metacognitive journaling module does not provide answers — it asks questions that help the user discover their own understanding. The spaced repetition algorithm does not recall for the user — it schedules the moment when the user must recall for themselves.
+
+The system is integra — not wounded by experience. The user is not. And this asymmetry must be preserved: the work of consolidation, the effort of recall, the discomfort of not-yet-knowing — these are not inefficiencies to be eliminated. They are the conditions under which learning becomes wisdom.
