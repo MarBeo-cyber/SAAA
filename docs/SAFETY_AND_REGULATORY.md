@@ -1,71 +1,70 @@
-# Safety and Regulatory Notes
+# Safety and Regulatory Notes — SAAA
 
-SAAA is a research and educational prototype.
+## What SAAA Is
 
-It is not a medical device.
+SAAA is a **research and educational prototype** for AI-assisted learning support and memory consolidation optimisation.
 
-It must not be marketed as:
+It is a **personal cognitive augmentation tool**. It supports the conditions under which learning becomes more stable: attention, rhythm, recall, consolidation, metacognitive awareness.
 
-- a treatment
-- a diagnostic system
-- a cognitive disorder therapy
-- a guaranteed memory enhancement device
-- a neurostimulation therapy
+---
 
-## Stimulation Safety
+## What SAAA Is Not
 
-The initial MVP should use only low-risk feedback:
+SAAA **must not** be positioned or marketed as:
 
-- audio
-- bone-conduction audio
-- haptic cues
-- visual cues
-- breathing guidance
-- study rhythm adaptation
+- a cognitive enhancement medical device
+- a treatment for cognitive impairment
+- a neurological therapy system
+- a substitute for educational professionals
+- a clinical memory augmentation device
+- a substitute for medical evaluation of cognitive conditions
 
-Any active electrical, magnetic or optical stimulation must be considered experimental and must require:
+---
 
-- professional supervision
-- safety limits
-- informed consent
-- device certification
-- ethical review where applicable
+## Permitted Positioning
 
-## AI Safety
+SAAA may be described as:
 
-SAAA should never infer medical conditions.
+- AI-assisted learning support framework
+- personal spaced repetition and recall optimisation system
+- metacognitive awareness support tool
+- memory consolidation research prototype
+- individual learning topology explorer
 
-Allowed:
+---
 
-```text
-Your recall score was lower than your personal baseline.
-```
+## Safety Governor — Hard Limits
 
-Not allowed:
+| Limit | Implementation |
+|---|---|
+| No diagnostic claims | NLP filter on all outputs |
+| No active neurostimulation (default) | `active_neurostimulation_enabled: false` hardcoded |
+| No performance pressure framing | Outputs always framed as opportunities, never deficits |
+| Max session duration enforced | Default 45 min; configurable within safe range |
+| No claims of memory disorder treatment | Forbidden terms filter |
 
-```text
-You may have a memory disorder.
-```
+**Forbidden terms (partial list):**  
+`diagnosis`, `treats`, `cures`, `memory disorder`, `neurological disease`, `cognitive impairment treated`, `clinical enhancement`
 
-Allowed:
+---
 
-```text
-This learning session shows signs of fatigue.
-```
+## Neurostimulation Safety
 
-Not allowed:
+Active neurostimulation (including bone conduction beyond audio cueing) requires:
 
-```text
-Your brain is not consolidating properly.
-```
+1. Explicit user consent with documented understanding of research status
+2. Protocol validation by qualified researcher
+3. Override flag set in config (`require_user_override: true`)
+4. Session logging with stimulation parameters
 
-## Human Override
+Passive audio cueing (standard headphones or bone conduction at normal audio levels) does not require override.
 
-The user must always be able to:
+---
 
-- pause
-- stop
-- disable feedback
-- delete data
-- export data
-- opt out of stimulation modules
+## Data Governance
+
+- All learning data stored on-device (encrypted)
+- No content data (what the user studies) transmitted without explicit consent
+- Anonymised behavioural signals for algorithm improvement: opt-in only
+- GDPR Article 17 (right to erasure): full delete cascade implemented
+- User owns their Knowledge Graph and Learning Biography — exportable at any time
