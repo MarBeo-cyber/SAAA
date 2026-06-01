@@ -1,133 +1,131 @@
-# SAAA — Sapiens Augmented Adaptive Agent
+# SAAA — Sapient Autopoietic Adaptive Agent
 
-**SAAA** is a research-oriented architecture for an AI-assisted learning and memory consolidation system.
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Status: Research Prototype](https://img.shields.io/badge/status-research%20prototype-orange.svg)]()
 
-The project explores how artificial intelligence, cognitive sensing, adaptive feedback, multimodal stimulation and personalized learning models can support the strengthening of cognitive learning processes.
+> *SAAA does not store what the user learns. SAAA learns how the user learns.*
 
-> SAAA does not “write knowledge into the brain”.  
-> SAAA supports attention, encoding, recall, consolidation and metacognitive self-regulation.
+SAAA is a personal AI-assisted cognitive learning system that builds an individual learning topology — how this specific user learns, when they learn best, and how memory consolidates — and uses it to optimise every future session.
 
-## Acronym
-
-**SAAA = Sapiens Augmented Adaptive Agent**
-
-Alternative extended reading:
-
-**SAAA = Sapient Autopoietic Adaptive Agent**
-
-The name intentionally recalls *sapiens* and *sapientia*: not merely accumulation of information, but structured, embodied, reflective learning.
-
-## Mission
-
-To build a personal AI-assisted cognitive learning system that helps users understand how they learn, when they learn best, how memory consolidates, and how multimodal feedback can support learning continuity.
-
-## Scientific Positioning
-
-SAAA is not a medical device and does not claim to treat cognitive disorders.
-
-It is a **research / educational / cognitive augmentation framework** focused on:
-
-- attention support
-- learning state estimation
-- memory consolidation support
-- recall scheduling
-- fatigue-aware study adaptation
-- multimodal feedback
-- metacognitive awareness
-
-## Core Principle
-
-SAAA does not primarily store *what* the user learns.
-
-SAAA learns **how the user learns**.
+---
 
 ## Conceptual Genealogy
 
-| Project | Core Function |
+| Project | Core Function | Biological Analogy |
+|---|---|---|
+| WAAA | Weak autopoietic perception | Sensory reflex |
+| MAAA | Metacognitive embodied cognition in emergency | Acute stress response |
+| PAAA | Personal neurofunctional continuity | Homeostasis / immune system |
+| **SAAA** | **Sapient learning consolidation** | **Myelination / synaptic plasticity** |
+
+*The WAAA → MAAA → PAAA → SAAA progression constitutes an **artificial ontogenesis**: development by stages structurally analogous to biological cognitive maturation.*
+
+---
+
+## Six-Layer Architecture
+
+```
+L1  Cognitive Sensing         ← keystroke dynamics, response latency, eye-tracking (opt.)
+L2  Learning State Estimation ← attention, fatigue, encoding probability, overload risk
+L3  Adaptive Content & Rhythm ← spaced repetition, interleaving, desirable difficulties
+L4  Multimodal Feedback       ← audio cues, breathing guidance, recall prompts
+L5  Memory Consolidation      ← FSRS scheduler, personal forgetting curve, knowledge graph
+L6  Sapient Synthesis         ← transfer bridge, metacognitive journaling, topology visualisation
+```
+
+Layer 6 — Sapient Synthesis — is what distinguishes SAAA from a sophisticated spaced repetition system. It connects domains, detects transfer opportunities, and facilitates structured reflection on the learning process itself.
+
+---
+
+## Core Principle
+
+```
+study session  →  cognitive sensing  →  learning state estimation
+       ↓
+adaptive feedback  →  recall scheduling  →  consolidation tracking
+       ↓
+knowledge graph update  →  sapient synthesis  →  personal learning model
+       ↑_______________________________________________|
+```
+
+The cycle closes on itself: consolidation feeds the personal model that optimises the next session.
+
+---
+
+## What SAAA Does
+
+- Estimates attention, fatigue and encoding probability in real time
+- Schedules active recall at the individually optimal moment (FSRS + personal calibration)
+- Builds a personal knowledge graph: how concepts are connected in this user's mind
+- Detects transfer opportunities between different domains
+- Facilitates metacognitive journaling via Socratic AI dialogue
+- Adapts session rhythm to neurofunctional profile (integrates with PAAA)
+- Exports a longitudinal learning biography
+
+---
+
+## Quick Start
+
+```bash
+git clone https://github.com/MarBeo-cyber/SAAA.git
+cd SAAA
+pip install -r requirements.txt
+pip install -e .
+python examples/run_demo.py
+```
+
+---
+
+## Safety Boundaries
+
+| Limit | Reason |
 |---|---|
-| WAAA | Weak autopoietic perception |
-| MAAA | Metacognitive embodied cognition |
-| PAAA | Personal neurofunctional continuity |
-| SAAA | Sapient learning consolidation |
+| No cognitive diagnosis | Not a medical device |
+| No active neurostimulation (default) | Requires explicit validated override |
+| No performance pressure language | Risk of learning anxiety |
+| Full data deletion on request | GDPR Article 17 |
 
-## High-Level Loop
+---
 
-```text
-study activity →
-cognitive sensing →
-learning state estimation →
-adaptive feedback →
-recall scheduling →
-memory consolidation tracking →
-personal learning model update
+## Integration with PAAA and MAAA
+
+**PAAA → SAAA:** SAAA accesses the PAAA neurofunctional profile (HRV, sleep, cognitive state) to propose study sessions when the profile indicates optimal recovery, and light recall sessions when it indicates fatigue.
+
+**SAAA → MAAA:** For emergency operations professionals, SAAA feeds updated procedural knowledge into the MAAA knowledge base. MAAA can recall recently consolidated protocols during a crisis.
+
+---
+
+## Project Structure
+
+```
+SAAA/
+├── saaa/
+│   ├── core/state.py           LearningState dataclass
+│   ├── feedback/               AdaptiveFeedbackEngine
+│   ├── learning/               LearningStateEngine (FSRS + individual calibration)
+│   ├── memory/                 ConsolidationScheduler, KnowledgeGraph
+│   └── safety/governor.py      SafetyGovernor
+├── docs/
+│   ├── ARCHITECTURE.md         Six-layer technical architecture
+│   ├── PHILOSOPHY.md           Sapientia and autopoietic learning
+│   ├── ROADMAP.md              Development milestones
+│   ├── SAFETY_AND_REGULATORY.md
+│   └── references.md           Scientific foundations
+├── config/default.yaml
+└── tests/
 ```
 
-## Use Cases
+---
 
-- studying technical documents
-- language learning
-- professional certification preparation
-- memory reinforcement
-- focus support
-- spaced repetition optimization
-- personalized learning rhythm discovery
-- multimodal learning research
+## Citation
 
-## What SAAA Can Do
-
-- estimate attention and fatigue trends
-- suggest study breaks
-- adapt learning rhythm
-- schedule active recall
-- trigger audio/bone-conduction cues
-- support breathing/relaxation before learning
-- track long-term retention curves
-- build a personal learning topology
-
-## What SAAA Must Not Claim
-
-SAAA does not:
-
-- diagnose cognitive impairment
-- treat neurological conditions
-- guarantee memory enhancement
-- replace educators, physicians or psychologists
-- deliver unsafe neurostimulation
-- make clinical claims without validation
-
-## MVP
-
-The first prototype should avoid invasive or active neuromodulation.
-
-Recommended MVP:
-
-```text
-Laptop / smartphone
-+ study session tracker
-+ recall tests
-+ fatigue estimator
-+ adaptive spaced repetition
-+ optional audio / bone-conduction cueing
-+ local AI assistant
+```bibtex
+@software{saaa2025,
+  title  = {SAAA: Sapient Autopoietic Adaptive Agent},
+  author = {Beozzi, Marco Giuseppe},
+  year   = {2025},
+  url    = {https://github.com/MarBeo-cyber/SAAA},
+  note   = {Part of the WAAA → MAAA → PAAA → SAAA artificial ontogenesis}
+}
 ```
-
-## Repository Structure
-
-```text
-saaa/
-  config/
-  docs/
-  saaa/
-    core/
-    sensing/
-    learning/
-    feedback/
-    memory/
-    safety/
-  tests/
-  examples/
-```
-
-## License
-
-Research prototype. Not for clinical use.
