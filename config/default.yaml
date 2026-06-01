@@ -1,6 +1,7 @@
 project:
   name: SAAA
-  full_name: Sapiens Augmented Adaptive Agent
+  full_name: Sapient Autopoietic Adaptive Agent
+  version: "0.2.0"
   mode: research_prototype
 
 safety:
@@ -8,13 +9,30 @@ safety:
   active_neurostimulation_enabled: false
   require_user_override: true
   max_session_minutes: 45
+  min_session_minutes: 5
+  forbidden_output_terms:
+    - "diagnosis"
+    - "treats"
+    - "cures"
+    - "memory disorder"
+    - "neurological disease"
 
 learning:
   default_session_minutes: 25
   break_minutes: 5
-  recall_intervals_hours: [1, 8, 24, 72, 168]
+  break_breathing_protocol: true
+  recall_intervals_hours: [1, 8, 24, 72, 168, 672]
   fatigue_threshold: 0.72
   attention_low_threshold: 0.38
+  overload_threshold: 0.75
+  min_encoding_probability: 0.45
+
+spaced_repetition:
+  algorithm: "fsrs"  # options: fsrs, sm2
+  fsrs_request_retention: 0.90
+  sm2_initial_ease: 2.5
+  min_interval_days: 1
+  max_interval_days: 365
 
 feedback:
   audio_enabled: true
@@ -22,3 +40,23 @@ feedback:
   haptic_enabled: false
   light_cues_enabled: false
   breathing_guidance_enabled: true
+  breathing_pre_session_minutes: 3
+  recall_prompt_enabled: true
+
+storage:
+  encryption: aes256
+  local_only: true
+  backup_cloud_opt_in: false
+  retention_years: 5
+
+knowledge_graph:
+  backend: networkx  # options: networkx, neo4j
+  embedding_model: "all-MiniLM-L6-v2"
+  similarity_threshold: 0.75
+  transfer_bridge_enabled: true
+
+llm:
+  local_enabled: true
+  model: "llama3.2:3b"
+  api_opt_in: false
+  use_for: ["journaling", "synthesis", "recall_prompts"]
