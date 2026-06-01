@@ -1,154 +1,124 @@
-# references.md — SAAA
+# Scientific References — SAAA
 
-## Sapiens Augmented Adaptive Agent
+## Sapient Autopoietic Adaptive Agent
 
-### Scientific and Philosophical References
-
-This document collects the theoretical and scientific foundations that inspired SAAA.
-
-SAAA is positioned as a learning support and memory consolidation framework.
-
-It does not claim memory enhancement or therapeutic effects.
+SAAA is a research and educational framework for AI-assisted learning and memory consolidation.  
+It does **not** claim to treat cognitive disorders or guarantee memory enhancement.
 
 ---
 
-# 1. Embodied Learning
+## 1. Memory Consolidation and Spaced Repetition
 
-## Varela, Thompson & Rosch (1991)
+**Ebbinghaus, H. (1885)**  
+*Über das Gedächtnis*  
+→ Original forgetting curve; foundational model for retention decay
 
-**The Embodied Mind**
+**Bjork, R. A. (1994)**  
+*Memory and Metamemory Considerations in the Training of Human Beings*  
+In Metcalfe & Shimamura (Eds.), *Metacognition*  
+→ Desirable difficulties: spacing, interleaving, testing as consolidation accelerators
 
-Relevant concepts:
+**Wozniak, P. A., & Gorzelanczyk, E. J. (1994)**  
+*Optimization of repetition spacing in the practice of learning*  
+*Acta Neurobiologiae Experimentalis, 54*  
+→ SM-2 algorithm; foundation of modern spaced repetition
 
-* embodied cognition
-* learning through interaction
-* active construction of knowledge
+**Ye, L. et al. (2024)**  
+*A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition*  
+→ FSRS algorithm; state-of-the-art open-source scheduler used in SAAA
 
-Application:
-learning adaptation.
-
----
-
-## Clark & Chalmers (1998)
-
-**The Extended Mind**
-
-Relevant concepts:
-
-* external memory
-* cognitive extension
-
-Application:
-SAAA as metacognitive augmentation.
+**Antony, J. W. et al. (2019)**  
+*Neural-network simulations of memory consolidation and reconsolidation*  
+*Hippocampus, 29(3)*  
+→ Hippocampal replay, consolidation cycles, memory stabilisation
 
 ---
 
-# 2. Memory Consolidation
+## 2. Cognitive Load and Attention
 
-## Antony, J.W. et al. (2019)
+**Sweller, J. (1988)**  
+*Cognitive load during problem solving: Effects on learning*  
+*Cognitive Science, 12(2), 257–285*  
+→ Cognitive Load Theory; foundation of adaptive content design in SAAA
 
-**Neural-network simulations of memory consolidation and reconsolidation**
+**Kahneman, D. (1973)**  
+*Attention and Effort*  
+→ Limited attentional resources; basis for SAAA fatigue and overload detection
 
-Relevant concepts:
-
-* hippocampal replay
-* consolidation cycles
-* memory stabilization
-
-Application:
-Consolidation Engine.
-
----
-
-## Neurofeedback Training Improves Episodic and Semantic Memory (2021)
-
-Relevant concepts:
-
-* training-dependent memory changes
-* adaptive reinforcement
-
-Application:
-memory-support feedback.
+**Lavie, N. (2005)**  
+*Distracted and confused? Selective attention under load*  
+*Trends in Cognitive Sciences, 9(2)*  
+→ Perceptual load theory; informs SAAA's learning state estimation
 
 ---
 
-## Sharpening Working Memory with Real-Time Neurofeedback (2022)
+## 3. Metacognition
 
-Relevant concepts:
+**Flavell, J. H. (1979)**  
+*Metacognition and cognitive monitoring*  
+*American Psychologist, 34(10), 906–911*  
+→ Foundational definition of metacognition; basis of SAAA Layer 6
 
-* adaptive training
-* working memory support
+**Nelson, T. O., & Narens, L. (1990)**  
+*Metamemory: A theoretical framework and new findings*  
+*Psychology of Learning and Motivation, 26*  
+→ Monitoring vs. control framework; informs SAAA metacognitive journaling
 
-Application:
-learning state estimation.
-
----
-
-# 3. Cognitive Enhancement Research
-
-## Neurofeedback for Cognitive Enhancement (2021)
-
-Relevant concepts:
-
-* attention regulation
-* feedback loops
-* adaptive learning
-
-Application:
-non-clinical augmentation.
+**Dunlosky, J., & Metcalfe, J. (2009)**  
+*Metacognition*  
+→ Comprehensive reference for self-regulated learning design
 
 ---
 
-## Cognitive Training with Neurofeedback — Meta-analysis (2023)
+## 4. Embodied and Autopoietic Learning
 
-Relevant concepts:
+**Varela, F., Thompson, E., & Rosch, E. (1991)**  
+*The Embodied Mind*  
+→ Learning as embodied action; informs SAAA's sensing and feedback philosophy
 
-* learning adaptation
-* spaced reinforcement
+**Maturana, H., & Varela, F. (1980)**  
+*Autopoiesis and Cognition*  
+→ Self-maintenance through interaction; basis of SAAA's autopoietic learning principle
 
-Application:
-personal learning topology.
-
----
-
-## EEG in Education — Systematic Review (2025)
-
-Relevant concepts:
-
-* adaptive educational systems
-* learning personalization
-
-Application:
-future sensing modules.
+**Clark, A., & Chalmers, D. (1998)**  
+*The Extended Mind. Analysis, 58(1), 7–19*  
+→ SAAA as cognitive extension; external knowledge scaffolding
 
 ---
 
-# 4. Design Principles
+## 5. Transfer Learning and Knowledge Integration
 
-SAAA does not upload knowledge.
+**Bransford, J. D., & Schwartz, D. L. (1999)**  
+*Rethinking transfer: A simple proposal with multiple implications*  
+*Review of Research in Education, 24*  
+→ Preparation for future learning; basis of SAAA transfer bridge
 
-SAAA supports conditions that improve learning.
-
-Targets:
-
-✓ attention
-✓ recall
-✓ rhythm
-✓ consolidation
-✓ metacognition
-
-Not targets:
-
-✗ intelligence increase
-✗ guaranteed memory enhancement
-✗ neurological treatment
+**Chi, M. T. H. (2006)**  
+*Two approaches to the study of experts' characteristics*  
+In Ericsson et al. (Eds.), *The Cambridge Handbook of Expertise and Expert Performance*  
+→ Expert knowledge structure (coherent networks vs. isolated facts); informs knowledge graph design
 
 ---
 
-# Citation
+## 6. Multimodal Learning and Feedback
 
-If using this repository academically, cite as:
+**Mayer, R. E. (2009)**  
+*Multimedia Learning (2nd ed.)*  
+Cambridge University Press  
+→ Cognitive theory of multimedia learning; basis of SAAA's multimodal feedback design
 
-SAAA Consortium (Research Prototype).
-Sapiens Augmented Adaptive Agent.
-Version 0.x
+**Zander, T. O., & Kothe, C. (2011)**  
+*Towards passive brain-computer interfaces: Applying brain-computer interface technology to neuroergonomics*  
+*Philosophical Transactions of the Royal Society B, 366*  
+→ Passive sensing of cognitive state; informs SAAA L1 sensing philosophy
+
+---
+
+## 7. Safety and Regulatory
+
+**FDA Digital Health Center of Excellence (2022)**  
+*Policy for Device Software Functions*  
+→ SAAA is positioned as general wellness software below SaMD threshold
+
+**EU MDR 2017/745**  
+→ Reference for future clinical claims assessment (currently not applicable)
