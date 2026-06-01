@@ -1,2 +1,35 @@
+# SAAA Requirements
+
+# Core
 pyyaml>=6.0
+numpy>=1.26
+scipy>=1.11
+
+# Learning State
+scikit-learn>=1.3
+river>=0.21
+tsfresh>=0.20
+
+# Spaced Repetition
+# py-fsrs>=4.0  # install from: pip install fsrs
+
+# NLP / Knowledge Graph
+sentence-transformers>=2.7
+spacy>=3.7
+networkx>=3.3
+
+# Storage
+sqlcipher3>=0.5
+lancedb>=0.8
+
+# Privacy / Security
+cryptography>=42.0
+
+# UI / API
+flask>=3.0
+
+# Testing
 pytest>=8.0
+pytest-cov>=4.1
+black>=23.0
+ruff>=0.1
