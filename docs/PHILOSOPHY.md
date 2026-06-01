@@ -1,64 +1,72 @@
-# Philosophy of SAAA
+# SAAA — Development Roadmap
 
-SAAA is based on the idea that human learning is not a purely informational process.
+## v0.1 — Study Session Tracker (current)
 
-Learning is embodied, temporal, emotional, attentional and autobiographical.
+- manual session start/stop
+- topic logging
+- recall quiz (manual)
+- self-reported fatigue rating
+- basic spaced repetition (fixed intervals)
+- local storage
 
-The system therefore does not aim to “upload” knowledge into the brain. Instead, it supports the conditions under which learning becomes more stable:
+## v0.2 — FSRS Recall Scheduler
 
-- attention
-- rhythm
-- repetition
-- emotional regulation
-- recall
-- consolidation
-- sleep-aware scheduling
-- metacognitive awareness
+- FSRS algorithm integration (py-fsrs)
+- per-item forgetting curve initialisation
+- automated review scheduling
+- recall quality scoring
+- retention tracking dashboard
 
-## Sapientia
+## v0.3 — Adaptive Learning State
 
-The term *sapiens* points not only to intelligence, but to practical wisdom: knowing how to organize knowledge, how to recall it, how to apply it and how to integrate it into life.
+- LearningStateEngine: attention, fatigue, encoding probability
+- adaptive session length (state-aware break recommendation)
+- time-of-day effectiveness tracking
+- multimodal feedback MVP (audio cues, breathing guidance)
 
-SAAA therefore focuses on operational wisdom:
+## v0.4 — Personal Learning Topology
 
-```text
-not more information,
-but better integration.
-```
+- best time-of-day detection (rolling analysis)
+- modality effectiveness profiling
+- fatigue-retention mapping
+- individual FSRS parameter calibration
+- knowledge graph (NetworkX embedded)
 
-## Autopoietic Learning
+## v0.5 — Local AI Assistant
 
-The autopoietic dimension of SAAA is not biological self-production. It is functional continuity:
+- LLaMA local integration for recall prompt generation
+- document summarisation for study material
+- flashcard auto-generation
+- Socratic metacognitive journaling (basic)
 
-- the system monitors learning coherence
-- detects fatigue and overload
-- adapts rhythms
-- protects cognitive continuity
-- stores autobiographical learning history
-- updates the personal learning model
+## v1.0 — SAAA Prototype
 
-## From WAAA to SAAA
+- full local dashboard with longitudinal visualisation
+- complete Personal Learning Biography
+- Sapient Synthesis (Layer 6): transfer bridge, topology visualisation
+- Safety Governor v1.0
+- privacy-first encrypted storage
+- exportable learning reports (PDF)
+- PAAA integration (neurofunctional profile import)
 
-WAAA asked:
+## v1.5 — Advanced Synthesis
 
-```text
-Can I still perceive?
-```
+- transfer learning detection across domains
+- knowledge gap analysis
+- advanced metacognitive journaling
+- MAAA integration (procedural knowledge export)
+- API for tutor/mentor access
 
-MAAA asked:
+## v2.0 — Validated Prototype
 
-```text
-Can human and agent still understand and act together?
-```
+- clinical efficacy studies
+- university and corporate partnerships
+- enterprise features (team learning analytics, anonymised benchmarking)
+- CE marking assessment pathway
 
-PAAA asked:
+## Research Track (v2.0+)
 
-```text
-Is neurofunctional continuity stable over time?
-```
-
-SAAA asks:
-
-```text
-Are the conditions for meaningful learning still present?
-```
+- eye-tracking integration (fixation patterns, attention mapping)
+- validated audio neurostimulation (bone conduction protocols)
+- brain-computer interface exploration
+- peer-reviewed publications
